@@ -1,0 +1,139 @@
+<event name="ItemSeaChest">
+    <pos x="4095.21" z="10295.17" a="-1" />
+</event>
+
+
+<event name="ItemSeaChest">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>20</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="150" lootmin="150" max="50" min="30" type="SeaChest"/>
+        </children>
+    </event>
+
+
+
+ <type name="SeaChest">
+        <cargo chance="1">
+            <item name="Pickaxe" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Hatchet" />
+        </cargo>
+         <cargo chance="1">
+            <item name="Hatchet" />
+        </cargo>
+         <cargo chance="1">
+            <item name="MetalWire" />
+        </cargo>
+        <cargo chance="1">
+            <item name="HandSaw" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Pliers" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="Whetstone" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <cargo chance="1">
+            <item name="NailBox" />
+        </cargo>
+        <hoarder />
+    </type>
